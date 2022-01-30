@@ -20,7 +20,7 @@ describe('<Menu />', () => {
     expect(screen.queryByRole('navigation')).not.toBeInTheDocument();
   });
 
-  it('should open menu', () => {
+  it('should open and close menu', () => {
     renderTheme(<Menu {...props} />);
 
     const buttonLink = screen.getByRole('link', { name: 'Open or close menu' });
@@ -32,6 +32,12 @@ describe('<Menu />', () => {
     expect(screen.queryByLabelText('Open Menu')).not.toBeInTheDocument();
 
     expect(screen.queryByRole('navigation')).toBeInTheDocument();
+
+    fireEvent.click(buttonLink);
+
+    expect(screen.queryByLabelText('Close Menu')).not.toBeInTheDocument();
+
+    expect(screen.queryByLabelText('Open Menu')).toBeInTheDocument();
   });
 
   it('should match snapshot', () => {

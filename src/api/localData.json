@@ -12,7 +12,7 @@
               {
                 "attributes": {
                   "name": "ScreenShot-2022-1-22_14-40-50.png",
-                  "url": "/uploads/Screen_Shot_2022_1_22_14_40_50_c4d01f08d5.png"
+                  "url": "/assets/images/logo.png"
                 }
               }
             ]
@@ -48,7 +48,7 @@
               "data": {
                 "id": "4",
                 "attributes": {
-                  "url": "/uploads/Screen_Shot_2022_1_22_14_16_7_4239e25cef.png",
+                  "url": "/assets/images/thumbnail.png",
                   "alternativeText": "ScreenShot-2022-1-22_14-16-7.png"
                 }
               }
