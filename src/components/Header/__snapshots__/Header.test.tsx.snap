@@ -45,6 +45,7 @@ exports[`<Header /> should match snapshot 1`] = `
   max-width: 96rem color:#333;
   font-size: 1.6rem;
   margin: 0 auto;
+  padding-top: 55px;
 }
 
 .c0 .c1 {

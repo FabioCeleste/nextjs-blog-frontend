@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPost 1`] = `
-.c6 {
+exports[`<BlogPost /> should render the post with img and title 1`] = `
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15,7 +15,7 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   align-items: center;
 }
 
-.c6 .post-cover {
+.c7 .post-cover {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -29,35 +29,35 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   align-items: center;
 }
 
-.c6 img {
+.c7 img {
   max-width: 100%;
   height: 480px;
 }
 
-.c6 h1 {
+.c7 h1 {
   font-size: 5.6rem;
   color: #333;
 }
 
-.c6 h2 {
+.c7 h2 {
   font-size: 2.4rem;
   font-weight: normal;
   color: #aaaaaa;
 }
 
-.c6 .separator-header {
+.c7 .separator-header {
   width: 80%;
   height: 1px;
   background-color: #DDDDDD;
 }
 
-.c7 {
+.c8 {
   font-size: 16px;
   color: #aaaaaa;
   font-style: italic;
 }
 
-.c7 a {
+.c8 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -65,24 +65,24 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   transition: all 300ms ease-in-out;
 }
 
-.c7:hover {
+.c8:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c2 {
+.c3 {
   color: #0A1128;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
 
-.c5 {
+.c6 {
   color: #0A1128;
   font-size: 2.4rem;
   text-transform: none;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -96,13 +96,13 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   color: inherit;
 }
 
-.c3 > img {
+.c4 > img {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
 }
 
-.c0 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -120,13 +120,14 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   max-width: 96rem color:#333;
   font-size: 1.6rem;
   margin: 0 auto;
+  padding-top: 55px;
 }
 
-.c0 .c1 {
+.c1 .c2 {
   margin: 0 0 calc(1.6rem - 1rem);
 }
 
-.c4 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -138,18 +139,19 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   max-width: 48rem;
 }
 
-.c8 {
+.c10 {
   font-size: 2.4rem;
   margin: 35px;
 }
 
-.c8 p {
-  font-size: 1.8;
+.c10 p {
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.c8 a,
-.c8 a:visited,
-.c8 a:link {
+.c10 a,
+.c10 a:visited,
+.c10 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -157,12 +159,12 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   transition: all 300ms ease-in-out;
 }
 
-.c8 a:hover {
+.c10 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c8 pre {
+.c10 pre {
   background: #0A1128;
   padding: 2.4rem;
   font-family: monospace;
@@ -173,62 +175,94 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   font-size: 1.6rem;
 }
 
-.c8 img {
+.c10 img {
   max-width: 100%;
 }
 
-.c8 .image {
+.c10 .image {
   background: #DDDDDD;
   line-height: 0;
 }
 
-.c8 .image figcaption {
+.c10 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c8 .image-style-side {
+.c10 .image-style-side {
   float: right;
   max-width: 50%;
   margin: 2.4rem;
 }
 
-.c8 hr {
+.c10 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c8 .table {
+.c10 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c8 table {
+.c10 table {
   width: 100%;
 }
 
-.c8 table td,
-.c8 table th {
+.c10 table td,
+.c10 table th {
   padding: 1.6rem;
 }
 
-.c8 ul,
-.c8 ol {
+.c10 ul,
+.c10 ol {
   margin: 4.0rem;
 }
 
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c9 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+}
+
+@media (max-width:600px) {
+  .c5 {
+    display: none;
+  }
+}
+
 @media (max-width:768px) {
-  .c8 {
+  .c10 {
     font-size: 1.8rem;
   }
 
-  .c8 .image-style-side {
+  .c10 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 0 calc(3.2rem / 2);
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    padding: 0 calc(3.2rem / 2);
   }
 }
 
@@ -236,130 +270,138 @@ exports[`<BlogPost /> should render header, excerpt, cover, metadata and BlogPos
   <div
     class=""
   >
-    <header
+    <div
       class="c0"
     >
-      <h1
-        class="c1 c2"
-      >
-        <a
-          class="c3"
-          href="/"
-          target="_self"
-        >
-          <img
-            alt="Fabio's Blog - O Blog do Fabinho."
-            src="/assets/images/logo.png"
-          />
-        </a>
-      </h1>
-      <div
-        class="c4"
+      <header
+        class="c1"
       >
         <h1
-          class="c1 c5"
+          class="c2 c3"
         >
-          Fabio's Blog
-        </h1>
-        <p>
-          O Blog do Fabinho.
-        </p>
-      </div>
-    </header>
-    <div
-      class="c6"
-    >
-      <div>
-        <h1>
-          Primeiro Post
-        </h1>
-        <h2>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus ex, id auctor lacus dignissim a. Nulla eu
-        </h2>
-        <div
-          class="post-cover"
-        >
-          <img
-            alt="Primeiro Post"
-            src="/assets/images/logo.png"
-          />
-          <div
-            class="c7"
+          <a
+            class="c4"
+            href="/"
+            target="_self"
           >
-            <p>
-              <span>
-                Por 
-              </span>
-              <a
-                href="/author/fabio-celeste"
-              >
-                Fabio Celeste
-              </a>
-              <span
-                class="separator"
-              >
-                 | 
-              </span>
-              <time
-                datetime="2022-01-28T02:53:53.880Z"
-              >
-                27 de jan. de 2022
-              </time>
-              <span
-                class="separator"
-              >
-                 | 
-              </span>
-              <span
-                class="category"
-              >
+            <img
+              alt="Fabio's Blog - O Blog do Fabinho."
+              src="/assets/images/logo.png"
+            />
+          </a>
+        </h1>
+        <div
+          class="c5"
+        >
+          <h1
+            class="c2 c6"
+          >
+            Fabio's Blog
+          </h1>
+          <p>
+            O Blog do Fabinho.
+          </p>
+        </div>
+      </header>
+      <div
+        class="c7"
+      >
+        <div>
+          <h1>
+            Primeiro Post
+          </h1>
+          <h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus ex, id auctor lacus dignissim a. Nulla eu
+          </h2>
+          <div
+            class="post-cover"
+          >
+            <img
+              alt="Primeiro Post"
+              src="/assets/images/logo.png"
+            />
+            <div
+              class="c8"
+            >
+              <p>
+                <span>
+                  Por 
+                </span>
                 <a
-                  href="/cetegory/java-script"
+                  href="/author/fabio-celeste"
                 >
-                  JavaScript
+                  Fabio Celeste
                 </a>
-              </span>
-            </p>
+                <span
+                  class="separator"
+                >
+                   | 
+                </span>
+                <time
+                  datetime="2022-01-28T02:53:53.880Z"
+                >
+                  27 de jan. de 2022
+                </time>
+                <span
+                  class="separator"
+                >
+                   | 
+                </span>
+                <span
+                  class="category"
+                >
+                  <a
+                    href="/cetegory/java-script"
+                  >
+                    JavaScript
+                  </a>
+                </span>
+              </p>
+            </div>
           </div>
         </div>
+        <div
+          class="separator-header"
+        />
       </div>
-      <div
-        class="separator-header"
-      />
     </div>
     <div
-      class="c8"
+      class="c9"
     >
-      <p
-        style="margin-left:0px;text-align:justify;"
+      <div
+        class="c10"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus ex, id auctor lacus dignissim a. Nulla eu leo placerat, varius dui id, euismod ex. Integer tempus nulla dui, id gravida sapien feugiat et. Mauris molestie elementum lacus sit amet aliquet. Nam mollis convallis massa, sit amet commodo nisi facilisis in. Sed rhoncus risus tellus, sollicitudin luctus mauris molestie id. Donec venenatis sodales orci, ut aliquet ex laoreet quis. Sed quis mauris a augue pulvinar imperdiet. Etiam feugiat libero purus, id lobortis libero lacinia vitae. Duis hendrerit augue magna, et pellentesque ipsum interdum sit amet.
-      </p>
-      <p
-        style="margin-left:0px;text-align:justify;"
-      >
-         
-      </p>
-      <p
-        style="margin-left:0px;text-align:justify;"
-      >
-        Praesent auctor nisi a laoreet placerat. Integer nibh turpis, egestas vel orci ac, sodales ultrices velit. Morbi justo urna, blandit vitae mattis at, sollicitudin ac dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Quisque ac nisl felis. Morbi aliquam erat et turpis maximus, non ultrices nulla aliquet. Donec porttitor tortor non nisl feugiat condimentum. Sed fringilla pharetra tellus vel semper. Aliquam ut arcu odio. Etiam porttitor purus vitae tellus scelerisque, sit amet pellentesque ligula molestie.
-      </p>
-      <p
-        style="margin-left:0px;text-align:justify;"
-      >
-        Ut faucibus odio diam, nec egestas tortor tincidunt non. Nulla volutpat enim et dolor scelerisque, sed vehicula justo fermentum. Cras ut condimentum ex. Fusce ac enim convallis, ultrices nisl sit amet, porttitor urna. Etiam ultrices ipsum a pharetra gravida. Integer suscipit sem et interdum consequat. Aenean commodo pretium dui sit amet fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas cursus odio id nisi aliquam vehicula. Morbi et nunc tellus. Sed vel turpis tincidunt, finibus magna ac, venenatis ante. Nulla in nulla ipsum. Curabitur efficitur tellus vestibulum arcu feugiat, vel iaculis nisi venenatis.
-      </p>
-      <p
-        style="margin-left:0px;text-align:justify;"
-      >
-         
-      </p>
-      <p
-        style="margin-left:0px;text-align:justify;"
-      >
-        Aliquam vel diam purus. Nam auctor dolor id magna cursus, a ornare felis commodo. Integer in auctor nibh. Mauris pharetra bibendum aliquet. Phasellus at justo dui. Sed ligula orci, varius eget sem vitae, porttitor aliquam mi. Sed justo ipsum, interdum non tempor vitae, viverra ac eros. Ut malesuada, nisi in aliquam interdum, diam diam vulputate lorem, et lacinia turpis mauris id odio. Donec sem arcu, convallis at blandit vitae, faucibus vitae magna. Aliquam scelerisque elit urna, a cursus justo scelerisque a. Quisque lacinia mauris eget venenatis euismod. Donec ac est quis nulla commodo rhoncus at sit amet arcu. Nulla viverra, lacus eget sodales eleifend, justo augue tempus leo, id ornare turpis orci vel metus. Integer turpis quam, ultrices ut vulputate nec, viverra sit amet risus. Suspendisse rutrum est in tincidunt porttitor.
-      </p>
+        <p
+          style="margin-left:0px;text-align:justify;"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus ex, id auctor lacus dignissim a. Nulla eu leo placerat, varius dui id, euismod ex. Integer tempus nulla dui, id gravida sapien feugiat et. Mauris molestie elementum lacus sit amet aliquet. Nam mollis convallis massa, sit amet commodo nisi facilisis in. Sed rhoncus risus tellus, sollicitudin luctus mauris molestie id. Donec venenatis sodales orci, ut aliquet ex laoreet quis. Sed quis mauris a augue pulvinar imperdiet. Etiam feugiat libero purus, id lobortis libero lacinia vitae. Duis hendrerit augue magna, et pellentesque ipsum interdum sit amet.
+        </p>
+        <p
+          style="margin-left:0px;text-align:justify;"
+        >
+           
+        </p>
+        <p
+          style="margin-left:0px;text-align:justify;"
+        >
+          Praesent auctor nisi a laoreet placerat. Integer nibh turpis, egestas vel orci ac, sodales ultrices velit. Morbi justo urna, blandit vitae mattis at, sollicitudin ac dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Quisque ac nisl felis. Morbi aliquam erat et turpis maximus, non ultrices nulla aliquet. Donec porttitor tortor non nisl feugiat condimentum. Sed fringilla pharetra tellus vel semper. Aliquam ut arcu odio. Etiam porttitor purus vitae tellus scelerisque, sit amet pellentesque ligula molestie.
+        </p>
+        <p
+          style="margin-left:0px;text-align:justify;"
+        >
+          Ut faucibus odio diam, nec egestas tortor tincidunt non. Nulla volutpat enim et dolor scelerisque, sed vehicula justo fermentum. Cras ut condimentum ex. Fusce ac enim convallis, ultrices nisl sit amet, porttitor urna. Etiam ultrices ipsum a pharetra gravida. Integer suscipit sem et interdum consequat. Aenean commodo pretium dui sit amet fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas cursus odio id nisi aliquam vehicula. Morbi et nunc tellus. Sed vel turpis tincidunt, finibus magna ac, venenatis ante. Nulla in nulla ipsum. Curabitur efficitur tellus vestibulum arcu feugiat, vel iaculis nisi venenatis.
+        </p>
+        <p
+          style="margin-left:0px;text-align:justify;"
+        >
+           
+        </p>
+        <p
+          style="margin-left:0px;text-align:justify;"
+        >
+          Aliquam vel diam purus. Nam auctor dolor id magna cursus, a ornare felis commodo. Integer in auctor nibh. Mauris pharetra bibendum aliquet. Phasellus at justo dui. Sed ligula orci, varius eget sem vitae, porttitor aliquam mi. Sed justo ipsum, interdum non tempor vitae, viverra ac eros. Ut malesuada, nisi in aliquam interdum, diam diam vulputate lorem, et lacinia turpis mauris id odio. Donec sem arcu, convallis at blandit vitae, faucibus vitae magna. Aliquam scelerisque elit urna, a cursus justo scelerisque a. Quisque lacinia mauris eget venenatis euismod. Donec ac est quis nulla commodo rhoncus at sit amet arcu. Nulla viverra, lacus eget sodales eleifend, justo augue tempus leo, id ornare turpis orci vel metus. Integer turpis quam, ultrices ut vulputate nec, viverra sit amet risus. Suspendisse rutrum est in tincidunt porttitor.
+        </p>
+      </div>
     </div>
   </div>
 </div>

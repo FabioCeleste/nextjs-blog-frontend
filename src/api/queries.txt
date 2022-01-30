@@ -1,0 +1,87 @@
+query GET_ALL {
+  setting {
+    data {
+      id
+      attributes {
+        blogName
+        blogDescription
+        text
+        
+        logo {
+          data {
+            attributes {
+              name
+              url
+            }
+          }
+        }
+        
+        menuLink {
+          id
+          link
+          text
+          newTab
+        }
+        
+      }
+    }
+  }
+  
+  posts {
+    data {
+      id
+      attributes {
+        createdAt
+        title
+        slug
+        excerpt
+        content
+        allowComments
+        
+        cover {
+          data {
+            id
+            attributes {
+              url
+              alternativeText
+            }
+          }
+        }
+        
+        category {
+          data {
+            id
+            attributes {
+              displayName
+              slug
+            }
+          }
+        }
+        
+        tags {
+          data {
+            id
+            attributes {
+              displayName
+              slug
+            }
+          }
+        }
+        
+        createdAt
+        
+        author {
+          data {
+            id
+            attributes {
+              displayName
+              slug
+            }
+          }
+        }
+        
+      }
+    }
+  }
+  
+}

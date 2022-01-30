@@ -19,7 +19,8 @@ describe('<HtmlComponent />', () => {
       }
 
       .c0 p {
-        font-size: 1.8;
+        font-size: 16px;
+        font-weight: 600;
       }
 
       .c0 a,
