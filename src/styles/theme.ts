@@ -3,12 +3,14 @@ export const theme = {
     primaryColor: '#0A1128',
     secondaryColor: '#dc143c',
     white: '#FFFFFF',
+    darkText: '#333',
     mediumGray: '#DDDDDD',
+    darkerGray: '#aaaaaa',
   },
   font: {
     family: {
       default: "'Open Sans', sans-serif",
-      secondary: "'Montserrat', sans-serif",
+      secondary: "'Poppins', sans-serif",
     },
     sizes: {
       xsmall: '8rem',
@@ -33,5 +35,9 @@ export const theme = {
     xxlarge: '4.8rem',
     huge: '5.6rem',
     xhuge: '6.4rem',
+  },
+  sizes: {
+    max: '96rem',
+    content: '80rem',
   },
 } as const;
