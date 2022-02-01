@@ -5,9 +5,12 @@ import { Title as HeadingStyles } from '../Heading/styles';
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     max-width: 450px;
+    min-height: 650px;
+
     border: 1px solid ${theme.colors.mediumGray};
     border-radius: 18px;
     transition: all 200ms ease-in-out;
+    margin: 15px;
 
     ${HeadingStyles} {
       margin: 0;

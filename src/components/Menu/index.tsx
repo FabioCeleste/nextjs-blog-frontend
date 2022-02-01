@@ -25,7 +25,12 @@ export type MenuProps = {
   attributes: {
     blogName: string;
     logo: {
-      data: LogoProps[];
+      data: {
+        attributes: {
+          name: string;
+          url: string;
+        };
+      }[];
     };
   };
 };
